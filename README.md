@@ -1,46 +1,24 @@
-# Manual
+<h1 align="center">Manual</h1>
 
-![Home Image](images/homeimage.jpg)
-
-<style>
-  img {
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    display: block;
-    margin: 0 auto;
-  }
-  h1 {
-    text-align: center;
-  }
-  h2 {
-    border-bottom: 2px solid #ff6600;
-    padding-bottom: 4px;
-    margin-top: 40px;
-  }
-  h3 {
-    color: #ff6600;
-    margin-top: 24px;
-  }
-  h4 {
-    color: #ff9040;
-    margin-top: 16px;
-  }
-</style>
+<p align="center">
+  <img src="images/homeimage.jpg" alt="Home Image" width="80%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 ## Table of Contents
 
 1. [GUI](#gui)
-   a. [Machine Interface](#machine-interface)
-   b. [Companion App Interface](#companion-app-interface)
-   c. [Example&nbsp;3-Input&nbsp;Overflow&nbsp;Configuration](#example-3-input-overflow-configuration)
+
+   - [Machine Interface](#machine-interface)
+   - [Companion App Interface](#companion-app-interface)
+   - [Example 3-Input Overflow Configuration](#example-3-input-overflow-configuration)
 
 2. [Setup & Working](#setup--working)
 
 3. [Maintenance](#maintenance)
-   a. [Change Air Filter](#change-air-filter)
-   b. [Change Pump Pipe](#change-pump-pipe)
-   c. [Calibration Pump](#calibration)
-   d. [Refill Fluids](#refill-fluids)
+   - [Change Air Filter](#change-air-filter)
+   - [Change Pump Pipe](#change-pump-pipe)
+   - [Calibration Pump](#calibration)
+   - [Refill Fluids](#refill-fluids)
 
 ## 1. GUI
 
@@ -48,8 +26,12 @@
 
 #### Manual Mode
 
-![Manual Mode](images/manualMode.jpg)
-![Manual Mode](images/keyboard.jpg)
+<p align="center">
+  <img src="images/manualMode.jpg" alt="Manual Mode" width="80%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
+<p align="center">
+  <img src="images/keyboard.jpg" alt="Manual Mode" width="80%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 In manual mode, there are two types of control:
 
@@ -79,7 +61,9 @@ In manual mode, there are two types of control:
 
 #### Auto Mode
 
-![Auto Mode](images/AutoMode.jpg)
+<p align="center">
+  <img src="images/AutoMode.jpg" alt="Auto Mode" width="80%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 In auto mode, the system operates automatically based on pre-set configurations.
 
@@ -89,64 +73,82 @@ The Android companion app allows you to create, edit, and upload automation conf
 
 #### 1. Launch the App
 
-![App Icon](images/ui0.png)
+<p align="center">
+  <img src="images/ui0.png" alt="App Icon" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 Tap the **ECIS Companion** icon to open the application.
 
 #### 2. Connect via Bluetooth
 
-![Device List](images/ui1.png)
+<p align="center">
+  <img src="images/ui1.png" alt="Device List" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 1. Press the refresh button ⟳ in the top-right corner to scan for nearby devices.
 2. Select **ECIS Control Panel** to establish a Bluetooth connection.
 
 #### 3. Retrieve / Save Configurations
 
-![Load Config](images/ui2.png)
+<p align="center">
+  <img src="images/ui2.png" alt="Load Config" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
-• **Load Config** – downloads all configurations from the machine.
-• **Reset to Default** – writes the factory-default configuration set back to the machine.
-• **Save Config** – becomes active after you make changes; press it to upload the current configuration.
+- **Load Config** – downloads all configurations from the machine.
+- **Reset to Default** – writes the factory-default configuration set back to the machine.
+- **Save Config** – becomes active after you make changes; press it to upload the current configuration.
 
 #### 4. Understand the Configuration Screen
 
-![Config Steps](images/ui3.png)
+<p align="center">
+  <img src="images/ui3.png" alt="Config Steps" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 The selected configuration is displayed as a vertical list of steps that will run sequentially during automation.
 
-• **Clone** (copy icon) – duplicate the current configuration.
-• **Delete** (trash icon) – remove the current configuration.
-• Drag a step tile up or down to reorder it.
+- **Clone** (copy icon) – duplicate the current configuration.
+- **Delete** (trash icon) – remove the current configuration.
+- Drag a step tile up or down to reorder it.
 
 #### 5. Switch or Create a Configuration
 
-![Config Dropdown](images/ui4.png)
+<p align="center">
+  <img src="images/ui4.png" alt="Config Dropdown" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 Tap the dropdown to choose another configuration or select **+ New Config** to create one from scratch.
 
 #### 6. Add a Step
 
-![Add Step](images/ui5.png)
+<p align="center">
+  <img src="images/ui5.png" alt="Add Step" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 Press the green **+ Add Step** button and pick a step type from the dialog.
 
 #### a.Motor Control Step
 
-![Motor Step](images/ui6.png)
+<p align="center">
+  <img src="images/ui6.png" alt="Motor Step" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
-• Rename the step if desired.
-• Choose **Nutrition**, **Sample**, or **Antibiotic** motor.
-• Set **Flow Rate** and **Volume**; the action is always _Dispense_.
+- Rename the step if desired.
+- Choose **Nutrition**, **Sample**, or **Antibiotic** motor.
+- Set **Flow Rate** and **Volume**; the action is always _Dispense_.
 
 #### b.Valve State Step
 
-![Valve Step](images/ui8.png)
+<p align="center">
+  <img src="images/ui8.png" alt="Valve Step" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 Open or close the **Air-relief** and **Overflow** valves. Rename the step for clarity.
 
 #### c.Sample Input Step
 
-![Sample Input](images/ui9.png)
+<p align="center">
+  <img src="images/ui9.png" alt="Sample Input" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 This interactive step pauses automation until the user confirms:
 
@@ -156,13 +158,17 @@ This interactive step pauses automation until the user confirms:
 
 #### d.Wait Step
 
-![Wait Step](images/ui91.png)
+<p align="center">
+  <img src="images/ui91.png" alt="Wait Step" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 Enter the duration (seconds). Automation is paused for this period.
 
 #### e.Buzzer Step
 
-![Buzzer Step](images/ui92.png)
+<p align="center">
+  <img src="images/ui92.png" alt="Buzzer Step" width="60%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 Set how long (seconds) the buzzer should sound; automation resumes afterwards.
 
@@ -170,17 +176,17 @@ Set how long (seconds) the buzzer should sound; automation resumes afterwards.
 
 Below is a walkthrough of the default "3-Input-Air Relief" automation. Each image corresponds to a block in the configuration list and the step it performs on the machine.
 
-| #   | Image                    | Purpose                                                                                                                                                                                |
-| --- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | ![Step 1](images/e1.png) | **Close Valves** – Ensure both _Air-relief_ and _Overflow_ valves are closed before starting.</br>**Sample Input** – Operator intakes 180 µl of sample. Automation waits until you tap |
-| 2   | ![Step 2](images/e2.png) | **Open Overflow Valve and Dispence Nutrition** 100ul vol. 100ul/min flow rate – Opens the overflow path so fluid direct pass through PDMS and exit                                     |
-| 3   | ![Step 3](images/e3.png) | **Close all Valves and wait for given duration**                                                                                                                                       |
-| 4   | ![Step 4](images/e4.png) | **Sample Air-relief** – Open air relief valve and pass 40ul sample to release air into air-relief pipe before entering electrodes.                                                     |
-| 5   | ![Step 5](images/e5.png) | **Open Overflow Valve and Dispence Sample** 100ul vol. 100ul/min flow rate – Opens the overflow path so fluid direct pass through PDMS and exit                                        |
-| 6   | ![Step 6](images/e6.png) | **Close all Valves and wait for given duration**                                                                                                                                       |
-| 7   | ![Step 7](images/e7.png) | **Anti-biotic Air-relief** – Open air relief valve and pass 40ul Anti-biotic to release air into air-relief pipe before entering electrodes.                                           |
-| 8   | ![Step 8](images/e8.png) | **Open Overflow Valve and Dispence Anti-biotic** 100ul vol. 100ul/min flow rate – Opens the overflow path so fluid direct pass through PDMS and exit                                   |
-| 9   | ![Step 9](images/e9.png) | **Close All Valves & Buzzer** – Closes both valves and sounds the buzzer for 3 s, indicating the procedure is complete.                                                                |
+| #   | Image                                                                                                                           | Purpose                                                                                                                                                                               |
+| --- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | <img src="images/e1.png" alt="Step 1" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Close Valves** – Ensure both _Air-relief_ and _Overflow_ valves are closed before starting.<br>**Sample Input** – Operator intakes 180 µl of sample. Automation waits until you tap |
+| 2   | <img src="images/e2.png" alt="Step 2" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Open Overflow Valve and Dispence Nutrition** 100ul vol. 100ul/min flow rate – Opens the overflow path so fluid direct pass through PDMS and exit                                    |
+| 3   | <img src="images/e3.png" alt="Step 3" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Close all Valves and wait for given duration**                                                                                                                                      |
+| 4   | <img src="images/e4.png" alt="Step 4" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Sample Air-relief** – Open air relief valve and pass 40ul sample to release air into air-relief pipe before entering electrodes.                                                    |
+| 5   | <img src="images/e5.png" alt="Step 5" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Open Overflow Valve and Dispence Sample** 100ul vol. 100ul/min flow rate – Opens the overflow path so fluid direct pass through PDMS and exit                                       |
+| 6   | <img src="images/e6.png" alt="Step 6" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Close all Valves and wait for given duration**                                                                                                                                      |
+| 7   | <img src="images/e7.png" alt="Step 7" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Anti-biotic Air-relief** – Open air relief valve and pass 40ul Anti-biotic to release air into air-relief pipe before entering electrodes.                                          |
+| 8   | <img src="images/e8.png" alt="Step 8" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Open Overflow Valve and Dispence Anti-biotic** 100ul vol. 100ul/min flow rate – Opens the overflow path so fluid direct pass through PDMS and exit                                  |
+| 9   | <img src="images/e9.png" alt="Step 9" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> | **Close All Valves & Buzzer** – Closes both valves and sounds the buzzer for 3 s, indicating the procedure is complete.                                                               |
 
 Feel free to duplicate this configuration and tweak flow-rates, volumes, or timings to suit your protocol.
 
@@ -188,19 +194,15 @@ Feel free to duplicate this configuration and tweak flow-rates, volumes, or timi
 
 ### PDMS Setup
 
-<div style="display: flex; justify-content:
-space-between;">
-    <img src="images/InsertPdms.png" alt="PDMS Setup"
-    style="width: 48%;">
-    <img src="images/pdmsSetup.png" alt="PDMS Setup"
-    style="width: 48%;">
-</div>
-</br>
+<img src="images/InsertPdms.png" alt="PDMS Setup" width="48%" align="left">
+<img src="images/pdmsSetup.png" alt="PDMS Setup" width="48%" align="right">
+
+<br clear="all">
+
 To prepare the PDMS module:
 
 1. Place the PDMS slide on the holder and lock it in place.
 2. Connect the Nutrition, Sample, and Antibiotic inlet tubes (recommended length: 35 cm each).
-   </br>
 
    > Keep the Sample tube upright in the tube holder beside the Sample valve. This small pressure head prevents back-flow. if the tube drops below the PDMS level fluid can backflow on another pump dispensing.
 
@@ -212,30 +214,34 @@ To prepare the PDMS module:
 
 ### A. Change Air Filter
 
-![Change Air Filter](images/chnageFilter.png)
+<p align="center">
+  <img src="images/chnageFilter.png" alt="Change Air Filter" width="80%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 Remove these screws and replace the filter here.
 
 ### B. Change Pump Pipe
 
-| Step                                                                    | Image                                    |
-| ----------------------------------------------------------------------- | ---------------------------------------- |
-| 1. Remove these screws and open the panel.                              | ![Change Pipe 1](images/changePipe1.jpg) |
-| 2. Remove this bolt by holding the back nut and remove this orange cap. | ![Change Pipe 2](images/changePipe2.jpg) |
-| 3. Unlock the pump cap by pushing the lever left.                       | ![Change Pipe 3](images/changePipe3.jpg) |
-| 4. Remove this screw.                                                   | ![Change Pipe 4](images/changePipe4.jpg) |
-| 5. Remove this metal pipe holder.                                       | ![Change Pipe 5](images/changePipe5.jpg) |
-| 6. Remove the pump pipe at this connector.                              | ![Change Pipe 6](images/changePipe6.jpg) |
-| 7. Cut a new pipe to the same length (97mm).                            | ![Change Pipe 7](images/changePipe7.jpg) |
-| 8. Replace the pipe and do the same in reverse to assemble.             | ![Change Pipe 8](images/changePipe8.jpg) |
+| Step                                                                    | Image                                                                                                                                           |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Remove these screws and open the panel.                              | <img src="images/changePipe1.jpg" alt="Change Pipe 1" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+| 2. Remove this bolt by holding the back nut and remove this orange cap. | <img src="images/changePipe2.jpg" alt="Change Pipe 2" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+| 3. Unlock the pump cap by pushing the lever left.                       | <img src="images/changePipe3.jpg" alt="Change Pipe 3" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+| 4. Remove this screw.                                                   | <img src="images/changePipe4.jpg" alt="Change Pipe 4" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+| 5. Remove this metal pipe holder.                                       | <img src="images/changePipe5.jpg" alt="Change Pipe 5" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+| 6. Remove the pump pipe at this connector.                              | <img src="images/changePipe6.jpg" alt="Change Pipe 6" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+| 7. Cut a new pipe to the same length (97mm).                            | <img src="images/changePipe7.jpg" alt="Change Pipe 7" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+| 8. Replace the pipe and do the same in reverse to assemble.             | <img src="images/changePipe8.jpg" alt="Change Pipe 8" width="100%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
 
 ### C. Calibration Pump
 
 #### Change Valves
 
-1. Click on ![Calibration Open](images/calibrationOpen.jpg)
+1. Click on <span style="vertical-align: middle;"><img src="images/calibrationOpen.jpg" alt="Calibration Open" width="40%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); vertical-align: middle;" /></span>
 2. Change the specified valves accordingly.
-   ![Calibration Open](images/Callibration.jpg)
+   <p align="center">
+     <img src="images/Callibration.jpg" alt="Calibration Open" width="80%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+   </p>
 
 #### Procedure
 
@@ -244,7 +250,9 @@ Remove these screws and replace the filter here.
 
 ### D. Refill Fluids
 
-![Change Fluid](images/changeFluid.jpg)
+<p align="center">
+  <img src="images/changeFluid.jpg" alt="Change Fluid" width="80%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" />
+</p>
 
 To refill fluid containers:
 
