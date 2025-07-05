@@ -194,9 +194,9 @@ Feel free to duplicate this configuration and tweak flow-rates, volumes, or timi
 
 ### PDMS Setup
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-left: auto; margin-right: auto;">
-<img src="images/InsertPdms.png" alt="PDMS Setup" width="45%" align="left">
-<img src="images/pdmsSetup.png" alt="PDMS Setup" width="45%" align="right">
+<div style="display: flex; flex-wrap: wrap; gap:5px; justify-content: center; margin-left: auto; margin-right: auto;">
+<img src="images/InsertPdms.png" alt="PDMS Setup" width="43%" align="right">
+<img src="images/pdmsSetup.png" alt="PDMS Setup" width="43%" align="right">
 </div>
 <br clear="all">
 
