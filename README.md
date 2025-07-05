@@ -223,16 +223,44 @@ Remove these screws and replace the filter here.
 
 ### B. Change Pump Pipe
 
-| Step                                                                    | Image                                                                                                                                          |
-| ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Remove these screws and open the panel.                              | <img src="images/changePipe1.jpg" alt="Change Pipe 1" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
-| 2. Remove this bolt by holding the back nut and remove this orange cap. | <img src="images/changePipe2.jpg" alt="Change Pipe 2" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
-| 3. Unlock the pump cap by pushing the lever left.                       | <img src="images/changePipe3.jpg" alt="Change Pipe 3" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
-| 4. Remove this screw.                                                   | <img src="images/changePipe4.jpg" alt="Change Pipe 4" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
-| 5. Remove this metal pipe holder.                                       | <img src="images/changePipe5.jpg" alt="Change Pipe 5" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
-| 6. Remove the pump pipe at this connector.                              | <img src="images/changePipe6.jpg" alt="Change Pipe 6" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
-| 7. Cut a new pipe to the same length (97mm).                            | <img src="images/changePipe7.jpg" alt="Change Pipe 7" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
-| 8. Replace the pipe and do the same in reverse to assemble.             | <img src="images/changePipe8.jpg" alt="Change Pipe 8" width="75%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /> |
+<table>
+  <tr>
+    <th width="40%">Step</th>
+    <th width="60%">Image</th>
+  </tr>
+  <tr>
+    <td>1. Remove these screws and open the panel.</td>
+    <td><img src="images/changePipe1.jpg" alt="Change Pipe 1" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+  <tr>
+    <td>2. Remove this bolt by holding the back nut and remove this orange cap.</td>
+    <td><img src="images/changePipe2.jpg" alt="Change Pipe 2" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+  <tr>
+    <td>3. Unlock the pump cap by pushing the lever left.</td>
+    <td><img src="images/changePipe3.jpg" alt="Change Pipe 3" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+  <tr>
+    <td>4. Remove this screw.</td>
+    <td><img src="images/changePipe4.jpg" alt="Change Pipe 4" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+  <tr>
+    <td>5. Remove this metal pipe holder.</td>
+    <td><img src="images/changePipe5.jpg" alt="Change Pipe 5" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+  <tr>
+    <td>6. Remove the pump pipe at this connector.</td>
+    <td><img src="images/changePipe6.jpg" alt="Change Pipe 6" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+  <tr>
+    <td>7. Cut a new pipe to the same length (97mm).</td>
+    <td><img src="images/changePipe7.jpg" alt="Change Pipe 7" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+  <tr>
+    <td>8. Replace the pipe and do the same in reverse to assemble.</td>
+    <td><img src="images/changePipe8.jpg" alt="Change Pipe 8" width="65%" style="border-radius: 15px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);" /></td>
+  </tr>
+</table>
 
 ### C. Calibration Pump
 
